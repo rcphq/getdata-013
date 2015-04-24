@@ -44,11 +44,11 @@ How to run Script:
 
  1.  Source script: 
 
-        `source("run_analysis.R")`
+        source("run_analysis.R")
 
  2. Run analysis function
 
-        `run_analysis()` 
+        run_analysis()
 
  3. view tidy data set txt in working directory:
 
@@ -56,9 +56,9 @@ How to run Script:
 
 4. (optional) If you wish to load the data into R:
 
-        `t2 <- read.table("joined.tidy.txt",header=TRUE)`
+        t2 <- read.table("joined.tidy.txt",header=TRUE)
 
-        `head(t2)`
+        head(t2)
 
 
 
